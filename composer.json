@@ -1,0 +1,39 @@
+{
+    "name": "magepal/cart-qty-increments-msi",
+    "version": "1.0.0",
+    "description": "Add to cart qty increments",
+    "keywords": [
+        "magento 2",
+        "magepal core extension"
+    ],
+    "homepage": "https://www.magepal.com/",
+    "support": {
+        "email": "support@magepal.com",
+        "issues": "https://github.com/magepal/magento2-core/issues/"
+    },
+    "authors": [
+        {
+            "name": "Renon Stewart",
+            "email": "renon@magepal.com",
+            "homepage": "https://www.magepal.com/",
+            "role": "Leader"
+        }
+    ],
+    "type": "magento2-module",
+    "require": {
+        "magento/framework": "*",
+        "magepal/magento2-core": ">=1.1.10",
+        "magento/module-inventory-sales": "~1.2.2"
+    },
+    "license": [
+        "Proprietary"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MagePal\\CartQtyIncrementsMsi\\": ""
+        }
+    }
+}
